@@ -139,16 +139,18 @@ a{
 @media (max-width: 660px) {
     .parralax-intro{
         padding: auto;
-        height:40vh;
+    
     }
     .me{
         width: 60%;
         height: 400px;
-        margin-bottom: 50px;
+        margin-bottom: 30px;
+        border-radius: 4%;
     }
-    .p{
-        font-size: 1rem;
-        line-height: 2.5;
+    p{
+        font-size: 1.3rem;
+        line-height: 1.7;
+        margin-bottom: 20px;
     }
     .nav-link{
         color: beige;
@@ -161,7 +163,14 @@ a{
         width: 50%;
         margin: 45px auto;
     }
-    
+    button{
+        margin-top: 20px;
+    }
+    .contact{
+        font-family: 'Oswald', sans-serif;
+        margin:  0 auto;
+        width: 50vw;
+    }
 }
 
 @media (min-width: 700px) and (max-width:880px) {
