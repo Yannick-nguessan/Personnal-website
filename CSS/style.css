@@ -24,6 +24,9 @@ h1{
     margin:  0 auto;
     width: 30vw;
 }
+.linkProjet{
+    text-decoration:none;
+}
 i{
     font-size: 2.5rem;
     color: #00ADB5;
