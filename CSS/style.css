@@ -25,6 +25,7 @@ h1{
     width: 30vw;
 }
 .link{
+    margin-top: 50px;
     text-decoration:none;
 }
 i{
@@ -42,6 +43,14 @@ p{
   font-family: 'Raleway', sans-serif;
   padding: auto;
 }
+
+.date{
+    font-size: 1.4rem;
+    line-height: 1.7;
+  font-family: 'Raleway', sans-serif;
+  padding: auto;
+  color: brown;
+}
 h3{
     font-size: 2.5rem;
     line-height: 2;
@@ -54,9 +63,20 @@ h2{
     font-size: 2.5rem;
     line-height: 2;
     font-family: 'Oswald', sans-serif;
-  color:#2D4263 ;
+  color:#2D4263;
   padding: 2%;
   
+}
+h6{
+    font-size: 1rem;
+  color:#2D4263 ;
+  font-weight: bold;
+}
+
+.col-md-6{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .parralx-intro{
@@ -101,7 +121,10 @@ a{
    width: 55%;
    
 }
-
+.hidde{
+    visibility: hidden;
+    display: none;
+}
 .navbar-brand{
     font-size: 2rem;
     color: #00ADB5;
